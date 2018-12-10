@@ -9,7 +9,7 @@ namespace MurTestTask.helpers
     public class App
     {
         private BaseHelper baseHelper;
-        private StartHelper startHelper;
+        private MainHelper mainHelper;
         private LoginHelper loginHelper;
 
         public BaseHelper Base()
@@ -19,11 +19,11 @@ namespace MurTestTask.helpers
                 : baseHelper;
         }
 
-        public StartHelper Start()
+        public MainHelper Main()
         {
-            return startHelper == null
-                ? startHelper = new StartHelper()
-                : startHelper;
+            return mainHelper == null
+                ? mainHelper = new MainHelper()
+                : mainHelper;
         }
 
         public LoginHelper Login()

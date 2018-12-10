@@ -3,7 +3,7 @@ using System;
 
 namespace MurTestTask.helpers
 {
-    public class StartHelper : StartPage
+    public class MainHelper : MainPage
     {
         public void OpenLoginForm()
         {
