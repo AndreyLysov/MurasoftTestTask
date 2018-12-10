@@ -19,7 +19,7 @@ namespace MurTestTask.tests
         [Test]
         public void CheckInvalidEmailWarningDisplaying()
         {
-            app.Start().OpenLoginForm();
+            app.Main().OpenLoginForm();
             app.Login().FillInform(user);
             Assert.AreEqual(app.Login().GetEmailWarningText(), "Invalid email format.");
         }

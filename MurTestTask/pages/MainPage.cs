@@ -4,7 +4,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace MurTestTask.pages
 {
-    public class StartPage : BasePage
+    public class MainPage : BasePage
     {
         [FindsBy(How = How.Id, Using = "login-button")]
         protected IWebElement btnLogin;
