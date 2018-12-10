@@ -14,9 +14,14 @@ namespace MurTestTask.pages
         protected IWebElement txtOutput;
 
         //This method is needed for avoiding throwing exception because not possible to click anything before the code is exececuted
-        protected void WaitUntilPageIsLoaded()
+        private void WaitUntilPageIsLoaded()
         {
             wait.Until(ExpectedConditions.TextToBePresentInElement(txtOutput, "Hello World"));
+        }
+
+        public MainPage()
+        {
+            WaitUntilPageIsLoaded();
         }
     }
 }

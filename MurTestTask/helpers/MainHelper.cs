@@ -7,13 +7,13 @@ namespace MurTestTask.helpers
     {
         public void OpenLoginForm()
         {
-            WaitUntilPageIsLoaded();
+            //WaitUntilPageIsLoaded();
             btnLogin.Click();
         }
 
         public void OpenSignUpForm()
         {
-            WaitUntilPageIsLoaded();
+            //WaitUntilPageIsLoaded();
             btnSignup.Click();
         }
     }
