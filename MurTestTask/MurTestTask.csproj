@@ -68,11 +68,11 @@
     <Compile Include="helpers\App.cs" />
     <Compile Include="helpers\BaseHelper.cs" />
     <Compile Include="helpers\LoginHelper.cs" />
-    <Compile Include="helpers\StartHelper.cs" />
+    <Compile Include="helpers\MainHelper.cs" />
     <Compile Include="models\UserData.cs" />
     <Compile Include="pages\BasePage.cs" />
     <Compile Include="pages\LoginForm.cs" />
-    <Compile Include="pages\StartPage.cs" />
+    <Compile Include="pages\MainPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tests\BaseTest.cs" />

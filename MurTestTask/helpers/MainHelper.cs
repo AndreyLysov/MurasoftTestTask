@@ -7,9 +7,7 @@ namespace MurTestTask.helpers
     {
         public void OpenLoginForm()
         {
-            Console.WriteLine("Waiting for execution the code");
             WaitUntilPageIsLoaded();
-            Console.WriteLine("Clicking 'Log in' link");
             btnLogin.Click();
         }
 
