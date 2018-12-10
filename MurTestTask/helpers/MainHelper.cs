@@ -1,5 +1,4 @@
 ﻿using MurTestTask.pages;
-using System;
 
 namespace MurTestTask.helpers
 {
@@ -7,13 +6,11 @@ namespace MurTestTask.helpers
     {
         public void OpenLoginForm()
         {
-            //WaitUntilPageIsLoaded();
             btnLogin.Click();
         }
 
         public void OpenSignUpForm()
         {
-            //WaitUntilPageIsLoaded();
             btnSignup.Click();
         }
     }

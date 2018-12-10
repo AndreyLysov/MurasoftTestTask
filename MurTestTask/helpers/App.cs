@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MurTestTask.helpers
+﻿namespace MurTestTask.helpers
 {
+    //Application manager which stores all helpers for working with the application.
     public class App
     {
         private BaseHelper baseHelper;

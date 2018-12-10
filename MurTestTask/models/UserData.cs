@@ -7,7 +7,6 @@ namespace MurTestTask.models
         public string Email { get; set; } = "";
         public string Password { get; set; } = "";
         
-
         override
         public string ToString()
         {
