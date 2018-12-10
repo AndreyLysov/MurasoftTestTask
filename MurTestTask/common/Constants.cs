@@ -8,10 +8,7 @@ namespace MurTestTask.common
 {
     public static class Constants
     {
-        private static int implicitWait = 5;
-        private static int explicitWait = 10;
-
-        public static int ImplicitWait { get => implicitWait; }
-        public static int ExplicitWait { get => explicitWait; }
+        public static int ImplicitWait { get; } = 5;
+        public static int ExplicitWait { get; } = 10;
     }
 }
