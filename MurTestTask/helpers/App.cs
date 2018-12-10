@@ -8,15 +8,15 @@ namespace MurTestTask.helpers
 {
     public class App
     {
-        private BaseHelper commonHelper;
+        private BaseHelper baseHelper;
         private StartHelper startHelper;
         private LoginHelper loginHelper;
 
-        public BaseHelper Common()
+        public BaseHelper Base()
         {
-            return commonHelper == null 
-                ? commonHelper = new BaseHelper() 
-                : commonHelper;
+            return baseHelper == null 
+                ? baseHelper = new BaseHelper() 
+                : baseHelper;
         }
 
         public StartHelper Start()

@@ -66,7 +66,7 @@
     <Compile Include="common\Constants.cs" />
     <Compile Include="driver_factory\DriverFactory.cs" />
     <Compile Include="helpers\App.cs" />
-    <Compile Include="helpers\CommonHelper.cs" />
+    <Compile Include="helpers\BaseHelper.cs" />
     <Compile Include="helpers\LoginHelper.cs" />
     <Compile Include="helpers\StartHelper.cs" />
     <Compile Include="models\UserData.cs" />

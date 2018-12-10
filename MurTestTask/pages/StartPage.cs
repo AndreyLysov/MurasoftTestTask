@@ -1,5 +1,4 @@
-﻿using MurTestTask.driver_factory;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
 

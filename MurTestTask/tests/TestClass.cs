@@ -8,15 +8,16 @@ namespace MurTestTask.tests
         private UserData user;
 
         [SetUp]
-        public void initializePreconditions()
+        public void InitializePreconditions()
         {
             user = new UserData()
-                .withEmail("invalid")
-                .withPassword("");
+            {
+                Email = "invalid"
+            };
         }
 
         [Test]
-        public void checkInvalidEmailWarningDisplaying()
+        public void CheckInvalidEmailWarningDisplaying()
         {
             app.Start().OpenLoginForm();
             app.Login().FillInform(user);
